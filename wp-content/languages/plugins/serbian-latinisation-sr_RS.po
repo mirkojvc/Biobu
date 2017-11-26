@@ -1,0 +1,153 @@
+# Translation of Plugins - Serbian Latinisation (Serbian Transliteration) - Stable (latest release) in Serbian
+# This file is distributed under the same license as the Plugins - Serbian Latinisation (Serbian Transliteration) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-11 12:38:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sr_RS\n"
+"Project-Id-Version: Plugins - Serbian Latinisation (Serbian Transliteration) - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://sgi.io"
+msgstr "http://sgi.io"
+
+#. Author of the plugin/theme
+msgid "Sibin Grasic"
+msgstr "Сибин Грашић"
+
+#. Description of the plugin/theme
+msgid "Serbian Latinisation plugin allows you to have a website in both cyrillic and latin scripts"
+msgstr "Додатак Српске Латинизације омогућава преглед сајта на латиничном и ћириличном писму"
+
+#. Plugin Name of the plugin/theme
+msgid "Serbian Latinisation"
+msgstr "Српска латинизација"
+
+#: serbian-latinization.php:49
+msgid "Serbian Latinization plugin requires WordPress 3.7 and PHP 5.4 or greater. The plugin has now disabled itself"
+msgstr "Додатак Српска Латинизација захтева Вордпрес 3.7 и PHP 5.4. Додатак је угашен"
+
+#: lib/widget.sgi-script-selector.php:113
+msgid "Separator (oneline)"
+msgstr "Сепаратор"
+
+#: lib/widget.sgi-script-selector.php:104
+msgid "One line"
+msgstr "Једнолинијски"
+
+#: lib/widget.sgi-script-selector.php:101
+msgid "Links"
+msgstr "Линкови"
+
+#: lib/widget.sgi-script-selector.php:98
+msgid "Dropdown"
+msgstr "Падајући мени"
+
+#: lib/widget.sgi-script-selector.php:93
+msgid "Selector style"
+msgstr "Стил селектора"
+
+#: lib/widget.sgi-script-selector.php:80
+msgid "Display Options"
+msgstr "Опције приказа"
+
+#: lib/widget.sgi-script-selector.php:72
+msgid "Link text - Latin"
+msgstr "Текст линка - Латиница"
+
+#: lib/widget.sgi-script-selector.php:60
+msgid "Link text - Cyrillic"
+msgstr "Текст линка - Ћирилица"
+
+#: lib/widget.sgi-script-selector.php:51
+msgid "Link Options"
+msgstr "Опције линкова"
+
+#: lib/widget.sgi-script-selector.php:43
+msgid "Title"
+msgstr "Наслов"
+
+#: lib/widget.sgi-script-selector.php:26
+msgid "Serbian Script selector"
+msgstr "Селектор српског писма"
+
+#: lib/widget.sgi-script-selector.php:19
+msgid "latinica"
+msgstr "latinica"
+
+#: lib/widget.sgi-script-selector.php:18
+msgid "ћирилица"
+msgstr "ћирилица"
+
+#: lib/widget.sgi-script-selector.php:17
+msgid "Script Selection"
+msgstr "Одабир писма"
+
+#: lib/widget.sgi-script-selector.php:13
+msgid "Serbian Script selection widget"
+msgstr "Одабир писма (Српска Латинизација)"
+
+#: lib/backend/admin-core.php:273
+msgid "Enable searching for cyrillic titles using latin script"
+msgstr "Омогући претраживање ћириличног садржаја коришћењем латинице"
+
+#: lib/backend/admin-core.php:257
+msgid "Transliterate cyrillic filenames to latin"
+msgstr "Преслови ћирилична имена фајлова у латиницу"
+
+#: lib/backend/admin-core.php:228
+msgid "This option is currently disabled because your current locale is set to sr_RS which will automatically change permalnks"
+msgstr "Ова опција је тренутно омогућена јер је тренутна локализација већ подешена на српски језик, што ће аутоматски променити сталне везе"
+
+#: lib/backend/admin-core.php:220
+msgid "Transliterate cyrillic permalinks to latin script"
+msgstr "Преслови ћириличне сталне везе у латиницу"
+
+#: lib/backend/admin-core.php:211
+msgid "Default script used for the website if user did not select a script"
+msgstr "Подразумевано писмо за веб сајт уколико корисник није одабрао писмо"
+
+#: lib/backend/admin-core.php:190
+msgid "Latin"
+msgstr "Латиница"
+
+#: lib/backend/admin-core.php:189
+msgid "Cyrillic"
+msgstr "Ћирилица"
+
+#: lib/backend/admin-core.php:179
+msgid "Core plugin settings control main functionality of the plugin"
+msgstr "Основна подешавања контролишу главне функционалности додатка"
+
+#: lib/backend/admin-core.php:164 lib/backend/admin-core.php:272
+msgid "Fix Search"
+msgstr "Поправи претрагу"
+
+#: lib/backend/admin-core.php:155 lib/backend/admin-core.php:256
+msgid "Fix media names"
+msgstr "Поправи имена фајлова"
+
+#: lib/backend/admin-core.php:137 lib/backend/admin-core.php:146
+#: lib/backend/admin-core.php:241
+msgid "Fix permalinks"
+msgstr "Поправи сталне везе"
+
+#: lib/backend/admin-core.php:128
+msgid "Default script"
+msgstr "Подразумевано писмо"
+
+#: lib/backend/admin-core.php:121
+msgid "Core settings"
+msgstr "Основна Подешавања"
+
+#: lib/backend/admin-core.php:92
+msgid "Serbian Transliteration Settings"
+msgstr "Подешавања - Српска латинизација"
+
+#: lib/backend/admin-core.php:66
+msgid "Settings"
+msgstr "Подешавања"

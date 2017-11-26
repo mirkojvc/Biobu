@@ -1,0 +1,24 @@
+2017-11-26T16:43:03+00:00 CRITICAL Uncaught Error: Call to undefined function generate_delivery_time() in /var/www/goca/wp-content/plugins/woocommerce-customer-delivery-date-time-selection/wcd_date_time.php:30
+Stack trace:
+#0 /var/www/goca/wp-includes/class-wp-hook.php(286): wcd_custom_checkout_action(Object(WC_Checkout))
+#1 /var/www/goca/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/goca/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/goca/wp-content/plugins/woocommerce/templates/checkout/form-shipping.php(75): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 /var/www/goca/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/var/www/goca/w...')
+#5 /var/www/goca/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(252): wc_get_template('checkout/form-s...', Array)
+#6 /var/www/goca/wp-includes/class-wp-hook.php(286): WC_Checkout->checkout_form_shipping('')
+#7 /var/www/goca/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/
+
+2017-11-26T16:43:21+00:00 CRITICAL Uncaught Error: Call to undefined function generate_delivery_time() in /var/www/goca/wp-content/plugins/woocommerce-customer-delivery-date-time-selection/wcd_date_time.php:30
+Stack trace:
+#0 /var/www/goca/wp-includes/class-wp-hook.php(286): wcd_custom_checkout_action(Object(WC_Checkout))
+#1 /var/www/goca/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/goca/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/goca/wp-content/plugins/woocommerce/templates/checkout/form-shipping.php(75): do_action('woocommerce_aft...', Object(WC_Checkout))
+#4 /var/www/goca/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/var/www/goca/w...')
+#5 /var/www/goca/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(252): wc_get_template('checkout/form-s...', Array)
+#6 /var/www/goca/wp-includes/class-wp-hook.php(286): WC_Checkout->checkout_form_shipping('')
+#7 /var/www/goca/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/
+
